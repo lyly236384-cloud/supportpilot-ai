@@ -249,16 +249,6 @@ GET  /api/knowledge/documents
 | `RAG_QUERY_REWRITE_LLM` | `false` | 是否启用 LLM query rewrite |
 | `STORAGE_BACKEND` | `sqlite` | 存储后端。可选 `sqlite` / `json` |
 
-## Interview Talking Points
-
-这个项目可以按 3 分钟讲法展示：
-
-1. 它不是普通客服聊天机器人，而是客服运营 Agent 平台。
-2. 用户消息会经过意图识别、风险判断、RAG 检索、回答生成、校验和动作决策。
-3. 普通问题自动回复，高风险问题转人工，需要持续跟进的问题通过 Function Calling 创建工单。
-4. 系统记录 trace 和真实 token usage，用于观察执行过程、调用成本和自动化效果。
-5. eval 结果说明：LLM 提升泛化能力，但高风险路径必须保留规则兜底。
-
 ## Roadmap
 
 - 增加更多行业模板，例如 SaaS 客服、教育咨询、本地生活服务。
@@ -266,3 +256,4 @@ GET  /api/knowledge/documents
 - 将 intent set 从硬编码 enum 演进为模板可配置。
 - 增加认证、权限、多租户和真实客服渠道接入。
 - 增加工单 SLA、负责人分配规则和通知渠道配置。
+
