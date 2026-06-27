@@ -1,0 +1,122 @@
+[
+  {
+    "customer_id": "shop_001",
+    "name": "云朵家居旗舰店",
+    "plan": "enterprise",
+    "is_vip": true,
+    "contact": "周店长",
+    "support_owner": "售后主管-Alice",
+    "industry": "家居百货",
+    "shop_level": "旗舰店"
+  },
+  {
+    "customer_id": "shop_002",
+    "name": "青禾母婴用品店",
+    "plan": "pro",
+    "is_vip": false,
+    "contact": "李运营",
+    "support_owner": "售后专员-Bob",
+    "industry": "母婴零售",
+    "shop_level": "品牌专营"
+  },
+  {
+    "customer_id": "shop_003",
+    "name": "星野数码配件店",
+    "plan": "starter",
+    "is_vip": false,
+    "contact": "赵老板",
+    "support_owner": "客服-Cindy",
+    "industry": "数码配件",
+    "shop_level": "成长店铺"
+  },
+  {
+    "customer_id": "shop_004",
+    "name": "鲜品优购食品专营",
+    "plan": "pro",
+    "is_vip": false,
+    "contact": "王经理",
+    "support_owner": "售后专员-Bob",
+    "industry": "食品生鲜",
+    "shop_level": "品牌专营"
+  },
+  {
+    "customer_id": "shop_005",
+    "name": "花颜美妆旗舰店",
+    "plan": "enterprise",
+    "is_vip": true,
+    "contact": "刘总",
+    "support_owner": "售后主管-Alice",
+    "industry": "美妆个护",
+    "shop_level": "旗舰店"
+  },
+  {
+    "customer_id": "shop_006",
+    "name": "悦动运动户外店",
+    "plan": "pro",
+    "is_vip": false,
+    "contact": "陈店长",
+    "support_owner": "售后专员-David",
+    "industry": "运动户外",
+    "shop_level": "品牌专营"
+  },
+  {
+    "customer_id": "shop_007",
+    "name": "墨香文化用品店",
+    "plan": "starter",
+    "is_vip": false,
+    "contact": "孙主管",
+    "support_owner": "客服-Cindy",
+    "industry": "文具办公",
+    "shop_level": "成长店铺"
+  },
+  {
+    "customer_id": "shop_008",
+    "name": "极客潮玩数码馆",
+    "plan": "pro",
+    "is_vip": false,
+    "contact": "马经理",
+    "support_owner": "售后专员-David",
+    "industry": "数码配件",
+    "shop_level": "品牌专营"
+  },
+  {
+    "customer_id": "shop_009",
+    "name": "布语家纺旗舰店",
+    "plan": "enterprise",
+    "is_vip": true,
+    "contact": "林总",
+    "support_owner": "售后主管-Alice",
+    "industry": "家居家纺",
+    "shop_level": "旗舰店"
+  },
+  {
+    "customer_id": "shop_010",
+    "name": "乐享零食小铺",
+    "plan": "starter",
+    "is_vip": false,
+    "contact": "吴店主",
+    "support_owner": "客服-Cindy",
+    "industry": "食品生鲜",
+    "shop_level": "个人店"
+  },
+  {
+    "customer_id": "shop_011",
+    "name": "健康快线保健品",
+    "plan": "pro",
+    "is_vip": false,
+    "contact": "郑经理",
+    "support_owner": "售后专员-Bob",
+    "industry": "个护健康",
+    "shop_level": "品牌专营"
+  },
+  {
+    "customer_id": "shop_012",
+    "name": "潮流鞋靴集合店",
+    "plan": "pro",
+    "is_vip": false,
+    "contact": "梁店长",
+    "support_owner": "售后专员-David",
+    "industry": "鞋靴箱包",
+    "shop_level": "品牌专营"
+  }
+]
