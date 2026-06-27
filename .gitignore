@@ -1,0 +1,40 @@
+﻿# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.pytest_tmp/
+
+# Runtime data / logs
+*.db
+*.sqlite
+*.sqlite3
+*.log
+backend/storage/
+
+# Environment and secrets
+.env
+.env.local
+.env.production
+
+# Frontend
+node_modules/
+dist/
+build/
+frontend/node_modules/
+frontend/dist/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# AI assistant workspace artifacts
+.claude/
+.agents/
+skills-lock.json

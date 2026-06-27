@@ -1,0 +1,24 @@
+fastapi>=0.115.6
+uvicorn[standard]>=0.34.0
+streamlit>=1.41.1
+pydantic>=2.13.0
+python-dotenv>=1.0.1
+requests>=2.32.3
+# === Testing (dev dependency; kept here for eval script portability) ===
+pytest>=8.3.4
+
+# === LangChain + LangGraph (Stage 2) ===
+langchain>=1.0.0,<2.0.0
+langchain-core>=1.0.0,<2.0.0
+langchain-openai>=1.0.0,<2.0.0
+langgraph>=1.0.0,<2.0.0
+
+# === Streaming ===
+httpx>=0.28.0
+sse-starlette>=2.2.0
+
+# === Dense RAG (optional; powers hybrid/dense retriever) ===
+# bge-small-zh-v1.5 embeddings via onnxruntime (no torch) + FAISS index.
+# If absent, retrieval degrades to the dependency-free lexical path.
+fastembed>=0.8.0
+faiss-cpu>=1.8.0
